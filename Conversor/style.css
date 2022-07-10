@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+}
+
+.container {
+  background-image: url("https://images.pexels.com/photos/730564/pexels-photo-730564.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  min-width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.box {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  min-width: 60vw;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 40px;
+  color: #03003c;
+}
+
+.page-logo {
+  width: 20vw;
+  margin-top: 20px;
+}
+
+#valorEntrada {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: solid 2px #03003c;
+  border-radius: 20px;
+  background-color: #e4eeee;
+}
+
+button {
+  border-radius: 20px;
+  border: 3px black solid;
+  background-color: #6ef9ff;
+  margin-top: 10px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 1;
+  background-color: #00fbff;
+  color: #350066;
+  font-weight: bold;
+}
+
+.imagemMoedas {
+  width: 20vw;
+  border-radius: 10px;
+  border: solid 4px black;
+}
+
+#resultado {
+  color: #03003c;
+  background-color: #e4eeee;
+  border: solid 3px #03003c;
+  text-align: center;
+  margin: 16px auto 5px;
+  width: 40vw;
+}

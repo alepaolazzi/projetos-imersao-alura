@@ -1,0 +1,71 @@
+body {
+    font-family: 'Courier, monospace';
+    min-height: 400px;
+    background-color: #0c0d2b;
+    background-repeat: no-repeat;
+  }
+  
+  .img-body {
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    width: 200px;
+    margin: 10px 0 10px 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color:#00ff6a;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#03ffaf;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input {
+    border: solid 3px #007822;
+    border-radius: 20px;
+    background-color: #adffc5;
+    margin-top: 10px;
+    text-align: center;
+    color: #000;
+  }
+  
+  button {
+    border: solid 3px #007822;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #adffc5;
+    cursor: pointer;
+  }
+  
+  #notaSaida {
+    color: red;
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-family: FreeMono, monospace;
+    border: solid 5px red
+  }
